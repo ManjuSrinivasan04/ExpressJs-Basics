@@ -4,14 +4,14 @@
 >> It is used for easier creation of web applications and services.
 >> Express.js simplifies development and makes it easier to write secure, modular and fast applications.
 
-What is Express :
+# What is Express :
 
   -> Express is a fast,Unopinionated and minimalist web framework for Node.js
   -> Express is a "Server-side" or "backend" framework.
   -> It is not comparable to client-side framework like React,Angular & Vue. 
   -> It can be used in combination with those frameworks to build full stack applications.
 
-Why Use Express :
+# Why Use Express :
   
   $ Makes Building web applications with Node.js MUCH easier
   $ Used for both server rendered apps as well as API / Miicroservices
@@ -20,7 +20,7 @@ Why Use Express :
   $ By far the most popular Node framework
   $ Great to use with client side frameworks as it's all JavaScript
 
-* Basic Server Syntax :
+# Basic Server Syntax :
 
   const express = require('express');
 
@@ -43,7 +43,7 @@ Why Use Express :
   app.listen(5000);
 
 
-* Basic route handling
+# Basic route handling
 
   => Handling request/response is simple
   => app.get(),app.post(),app.put(),app.delete(),etc 
@@ -59,7 +59,7 @@ app.get('/',function(req,res){
       //full acess to request and response
   });
 
-Express Middleware :
+# Express Middleware :
   
  >> Middleware functions are functions that have access to the request and response object.
  >> Express has built in Middleware but Middleware also comes from 3rd party packages as well as custom Middleware
